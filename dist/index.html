@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="files/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="bg-[#FCF7E6]">
+   <div class="flex justify-between py-12 w-10/12 mx-auto max-[600px]:w-11/12">
+    <a href="/"><img src="img/logo.png" alt="" class="h-25 w-62 max-[600px]:h-12 max-[600px]:w-34"></a>
+    <div class="w-60 flex justify-between items-start max-[600px]:w-48	">
+        <a href="#" class="font-semibold text-xl hover:text-white p-3 max-[600px]:text-sm">About us</a>
+        <a href="#" class="border border-black bg-black text-white p-3 text-xl font-bold rounded hover:bg-inherit hover:text-black max-[600px]:text-sm">Sign-up</a>
+    </div>
+   </div>
+</header>
+    <main class="bg-[#FCF7E6]">
+    <div class="w-10/12 mx-auto pt-24 pb-32">
+      <div class="mb-12">
+        <div class="flex justify-between p-6 bg-black text-white items-center">
+          <img src="img/Alpha.png" alt="Alpha">
+          <p class="flex-1 ml-12 text-sm max-[760px]:ml-6 textToggle"></p>
+          <img src="img/chevron-down.png" alt="chevron-down" class="cursor-pointer btnShow">
+        </div>
+        <div class="toggleText p-6 bg-black text-white">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit delectus repellendus quae omnis. Totam neque doloremque inventore, ipsum accusantium dicta fugit nemo nostrum maiores temporibus pariatur ullam maxime a reprehenderit?</p>
+        </div>
+      </div>
+      <div class="products"></div>
+      <div class="w-full lg:w-6/12 mx-auto mt-24 flex flex-col items-center">
+        <h4>Be the first one to know when we launch our beta!</h4>
+        <div class="mt-6 flex justify-between w-full items-center">
+            <input type="email" placeholder="E-mail" class="text-black p-4 cursor-pointer mr-4 flex-1">
+            <a class="p-4 bg-[#ED5E21] rounded border border-[#ED5E21] hover:bg-inherit cursor-pointer">Sign-up</a>
+        </div>
+      </div>
+    </div>
+</main>
+    <footer>
+    <div class="flex justify-between w-4/5 mx-auto my-20 max-[760px]:flex-col-reverse ">
+        <a href="/"><img src="img/logofooter.png" alt="logofooter" class="w-20 h-20 max-[760px]:self-center"></a>
+        <div class="w-4/5 flex justify-between max-[760px]:flex-col max-[760px]:w-full">
+            <ul class="max-[760px]:mb-12">
+                <li class="text-sm mb-4 font-bold"><a href="#">FAQ</a></li>
+                <li class="text-sm mb-4 font-bold"><a href="#">RETURNS</a></li>
+                <li class="text-sm font-bold"><a href="#">CONTACT</a></li>
+            </ul>
+            <ul class="max-[760px]:mb-12">
+                <li class="text-sm mb-4 font-bold"><a href="#">TERMS & CONDITIONS</a></li>
+                <li class="text-sm mb-4 font-bold"><a href="#">PRIVACY POLICY</a></li>
+                <li class="text-sm mb-4 font-bold"><a href="#">COOKIE POLICY</a></li>
+                <li class="text-sm font-bold"><a href="#">COOKIE SETTINGS</a></li>
+            </ul>
+            <ul class="max-[760px]:mb-12">
+                <li class="text-sm mb-4 font-bold"><a href="#">ABOUT SECOND CHANCE</a></li>
+                <li class="text-sm mb-4 font-bold"><a href="#">CAREER</a></li>
+                <li class="text-sm mb-4 font-bold"><a href="#">FACEBOOK</a></li>
+                <li class="text-sm font-bold"><a href="#">INSTAGRAM</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+    <script src="js/app.min.js"></script>
+</body>
+</html>
